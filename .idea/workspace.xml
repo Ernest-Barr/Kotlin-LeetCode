@@ -4,101 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3942220b-b6a5-4e38-8b64-3d9d5dc8f8dd" name="Changes" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/.ideavimrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/100. Same Tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/11. Container With Most Water.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1128. Number of Equivalent Domino Pairs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1189. Maximum Number of Balloons.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/12. Integer to Roman.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/121. Best Time to Buy and Sell Stock.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/125. Valid Palindrome.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1295. Find Numbers With Even Number of Digits.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/13. Roman to Integer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/136. Single Number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1399. Count Largest Groups.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/14. Longest Common Prefix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/141. Linked List Cycle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/142. Linked List Cycle II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/144. Binary  Tree Preorder Traversal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/145. Binary Tree Postorder Traversal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/15. 3Sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/150. Evaluate Reverse Polish Notation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/16. 3Sum Closest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/160. Intersection of Two Linked Lists.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/167. Two Sum II - Input Array Is Sorted.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/168. Excel Sheet Column Title.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/169. Majority Element.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/18. 4Sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/19. Remove Nth Node From End of List.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/191. Number of 1 Bits.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1929. Concatenation of Array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2. Add Two Numbers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/20. Valid Parentheses.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/203. Remove Linked Lists Element.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/206. Reverse Linked List.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2095. Delete the Middle Node of a Linked List.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/21. Merge Two Sorted Lists.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/219. Contains Duplicate II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2206. Divide Array Into Equal Pairs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/226. Invert Binary Tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/229. Majority Element II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/230. Kth Smallest Element in a BST.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2302. Count Subarrays With Score Less Than K.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/237. Delete Node in a Linked List.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/242. Valid Anagram.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/257. Binary Tree Paths.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/27. Remove Element.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/28. Find the Index of the First Occurrence in a String.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3. Longest Substring Without Repeating Characters.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3392. Count Subarrays of Length Three With a Condition.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/344. Reverse String.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/35. Search Insert Position.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/383. Ransom Note.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/450. Delete Node in a BST.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/46. Permutations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/49. Group Anagrams.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/50. Pow(x,n).kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/58. Length of Last Word.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/680. Valid Palindrome II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/682. Baseball Game.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/69. Sqrt(x).kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/700. Search in a Binary Search Tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/701. Insert Into a Binary Search Tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/713. Subarray Product Less Than K.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/75. Sort Colors.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/77. Combinations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/771. Jewels and Stones.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/78. Subsets.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/83. Remove Duplicates from Sorted List.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/876. Middle of the Linked List.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/90. Subsets II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/94. Binary Tree Inorder Traversal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/977. Squares of Sorted Array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/98. Validate Binary Search Tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DataStructure/ListNode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DataStructure/TreeNode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/util/ListUtil.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/util/TreeUtil.kt" afterDir="false" />
+    <list default="true" id="3942220b-b6a5-4e38-8b64-3d9d5dc8f8dd" name="Changes" comment="Added problems from obsidian notes.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/101. Symmetric Tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/104. Maximum Depth of Binary Tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/110. Balanced Binary Tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/190. Reverse Bits.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1920. Build Array From Permutation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2239. Find Closest Number to Zero.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/53. Maximum Subarray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/543. Diameter of Binary Tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/705. Design HashSet.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Done/2275. Largest Combination with Bitwise AND Greater than Zero.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Done/BinarySearch.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Done/IntegerToRoman.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Done/NumberComplement.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Done/NumberOf1Bits.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Done/ReverseInteger.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Done/RomanToInt.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Done/Sqrt.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Done/StringToInteger.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Done/TwoSum.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Done/ValidParentheses.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/InProgress/14. Longest Common Prefix.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/InProgress/27. Remove Element.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/InProgress/AddTwoNumbers.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/InProgress/LongestValidParentheses.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/InProgress/ToHex.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/misc.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +85,9 @@
     "Kotlin._169__Majority_ElementKt.executor": "Run",
     "Kotlin._16__3Sum_ClosestKt.executor": "Run",
     "Kotlin._18__4SumKt.executor": "Run",
+    "Kotlin._190__Reverse_BitsKt.executor": "Run",
     "Kotlin._191__Number_of_1_BitsKt.executor": "Run",
+    "Kotlin._1920__Build_Array_From_PermutationKt.executor": "Run",
     "Kotlin._1929__Concatenation_of_ArrayKt.executor": "Run",
     "Kotlin._19__Remove_Nth_Node_From_End_of_ListKt.executor": "Run",
     "Kotlin._203__Remove_Linked_Lists_ElementKt.executor": "Run",
@@ -179,13 +97,16 @@
     "Kotlin._219__Contains_Duplicate_IIKt.executor": "Run",
     "Kotlin._21__Merge_Two_Sorted_ListsKt.executor": "Run",
     "Kotlin._2206__Divide_Array_Into_Equal_PairsKt.executor": "Run",
+    "Kotlin._2239__Find_Closest_Number_to_ZeroKt.executor": "Run",
     "Kotlin._2275__Largest_Combination_with_Bitwise_AND_Greater_than_ZeroKt.executor": "Run",
     "Kotlin._229__Majority_Element_IIKt.executor": "Run",
     "Kotlin._2302__Count_Subarrays_With_Score_Less_Than_KKt.executor": "Run",
     "Kotlin._242__Valid_AnagramKt.executor": "Run",
     "Kotlin._257__Binary_Tree_PathsKt.executor": "Run",
+    "Kotlin._2799__Count_Complete_Subarrays_in_an_ArrayKt.executor": "Run",
     "Kotlin._27__Remove_ElementKt.executor": "Run",
     "Kotlin._28__Find_the_Index_of_the_First_Occurrence_in_a_StringKt.executor": "Run",
+    "Kotlin._2962__Count_Subarrays_Where_Max_Element_Appears_At_Least_K_TimesKt.executor": "Run",
     "Kotlin._2__Add_Two_NumbersKt.executor": "Run",
     "Kotlin._3392__Count_Subarrays_of_Length_Three_With_a_ConditionKt.executor": "Run",
     "Kotlin._344__Reverse_StringKt.executor": "Run",
@@ -214,15 +135,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Ernest/projects/school/cop-3530-data-structures",
+    "last_opened_file_path": "C:/Users/Ernest/projects/websites/personal/site",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
@@ -252,8 +173,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MiscKt" />
         <item itemvalue="Kotlin.LongestValidParenthesesKt" />
+        <item itemvalue="Kotlin.MiscKt" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +211,10 @@
       <workItem from="1741303612646" duration="4008000" />
       <workItem from="1741961774035" duration="14000" />
       <workItem from="1744328789007" duration="1135000" />
-      <workItem from="1746360860007" duration="34394000" />
+      <workItem from="1746360860007" duration="44653000" />
+      <workItem from="1746674917807" duration="1796000" />
+      <workItem from="1746851462686" duration="266000" />
+      <workItem from="1747002545773" duration="5407000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -300,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739918615374</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added problems from obsidian notes.">
+      <option name="closed" value="true" />
+      <created>1746410588174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746410588174</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +240,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="Added problems from obsidian notes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added problems from obsidian notes." />
   </component>
 </project>
