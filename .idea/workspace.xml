@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3942220b-b6a5-4e38-8b64-3d9d5dc8f8dd" name="Changes" comment="Added problems from obsidian notes.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/101. Symmetric Tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/104. Maximum Depth of Binary Tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/110. Balanced Binary Tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/190. Reverse Bits.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1920. Build Array From Permutation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2239. Find Closest Number to Zero.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/53. Maximum Subarray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/543. Diameter of Binary Tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/705. Design HashSet.kt" afterDir="false" />
+    <list default="true" id="3942220b-b6a5-4e38-8b64-3d9d5dc8f8dd" name="Changes" comment="Added daily questions from 5/4-5/13">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/111. Minimum Depth of Binary Tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/392. Is Subsequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,6 +106,7 @@
     "Kotlin._344__Reverse_StringKt.executor": "Run",
     "Kotlin._35__Search_Insert_PositionKt.executor": "Run",
     "Kotlin._383__Ransom_NoteKt.executor": "Run",
+    "Kotlin._392__Is_SubsequenceKt.executor": "Run",
     "Kotlin._3__Longest_Substring_Without_Repeating_CharactersKt.executor": "Run",
     "Kotlin._46__PermutationsKt.executor": "Run",
     "Kotlin._49__Group_AnagramsKt.executor": "Run",
@@ -144,7 +139,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "advanced.settings",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
@@ -214,7 +209,8 @@
       <workItem from="1746360860007" duration="44653000" />
       <workItem from="1746674917807" duration="1796000" />
       <workItem from="1746851462686" duration="266000" />
-      <workItem from="1747002545773" duration="5407000" />
+      <workItem from="1747002545773" duration="7835000" />
+      <workItem from="1747345573098" duration="4603000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -232,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746410588174</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added daily questions from 5/4-5/13">
+      <option name="closed" value="true" />
+      <created>1747173164249</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747173164249</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +245,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="Added problems from obsidian notes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added problems from obsidian notes." />
+    <MESSAGE value="Added daily questions from 5/4-5/13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added daily questions from 5/4-5/13" />
   </component>
 </project>
