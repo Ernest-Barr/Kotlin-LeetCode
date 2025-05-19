@@ -19,13 +19,13 @@ private fun isValidBST(root: TreeNode?): Boolean {
 }
 
 fun main() {
-    var treeOne = TreeNode(2)
+    val treeOne = TreeNode(2)
     treeOne.left = TreeNode(1)
     treeOne.right = TreeNode(3)
 
     println(isValidBST(treeOne))
 
-    var treeTwo = TreeNode(5)
+    val treeTwo = TreeNode(5)
     treeTwo.left = TreeNode(1)
     treeTwo.right = TreeNode(4)
     treeTwo.right!!.left = TreeNode(3)

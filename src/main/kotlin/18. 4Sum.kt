@@ -3,9 +3,9 @@ private fun fourSum(nums: IntArray, target: Int): List<List<Int>> {
     val t = target.toLong()
     nums.sort()
 
-    for (i in 0 until nums.size - 3) {
+    for (i in 0..<nums.size - 3) {
         if (i > 0 && nums[i] == nums[i - 1]) continue
-        for (j in i + 1 until nums.size - 2) {
+        for (j in i + 1..<nums.size - 2) {
             var l = j + 1
             var r = nums.size - 1
             while (l < r) {

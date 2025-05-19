@@ -11,7 +11,7 @@ private fun sortColors(nums: IntArray): Unit {
         }
     }
 
-    for (i in 0 until nums.size) {
+    for (i in nums.indices) {
         if (redCount != 0) {
             nums[i] = 0
             redCount--

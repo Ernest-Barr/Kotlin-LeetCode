@@ -1,4 +1,4 @@
-fun mergeAlternately(word1: String, word2: String): String {
+private fun mergeAlternately(word1: String, word2: String): String {
     var i = 0
     var res = ""
     val n = maxOf(word1.length, word2.length)

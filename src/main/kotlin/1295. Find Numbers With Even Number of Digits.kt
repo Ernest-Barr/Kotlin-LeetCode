@@ -1,6 +1,6 @@
 private fun findNumbers(nums: IntArray): Int {
     var res = 0
-    for (i in 0 until nums.size) {
+    for (i in nums.indices) {
         var digits = 0
         while (nums[i] > 0) {
             nums[i] /= 10

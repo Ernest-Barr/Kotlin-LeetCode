@@ -3,7 +3,7 @@ private fun lengthOfLongestSubstring(s: String): Int {
     var res = 0
     var l = 0
 
-    for (r in 0 until s.length) {
+    for (r in s.indices) {
         while (s[r] in set) {
             set.remove(s[l])
             l++

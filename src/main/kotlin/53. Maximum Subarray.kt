@@ -2,7 +2,7 @@ fun maxSubArray(nums: IntArray): Int {
     var res = nums[0]
     var max = nums[0]
 
-    for (i in 1 until nums.size) {
+    for (i in 1..<nums.size) {
         max = maxOf(max + nums[i], nums[i])
         res = maxOf(res, max)
     }

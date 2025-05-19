@@ -1,9 +1,7 @@
-class MyHashSet() {
+private class MyHashSet() {
     val list: List<MutableList<Int>> = List(10000) { mutableListOf() }
 
-    private fun hash(key: Int): Int {
-        return key % 1000
-    }
+    private fun hash(key: Int): Int = key % 1000
 
     fun add(key: Int) {
         val index = hash(key)
@@ -21,5 +19,5 @@ class MyHashSet() {
 }
 
 fun main() {
-
+    // TODO: Test cases
 }

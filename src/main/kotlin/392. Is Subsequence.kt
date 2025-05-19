@@ -1,4 +1,4 @@
-fun isSubsequence(s: String, t: String): Boolean {
+private fun isSubsequence(s: String, t: String): Boolean {
     var i = 0
     var j = 0
     while (i < s.length && j < t.length) {

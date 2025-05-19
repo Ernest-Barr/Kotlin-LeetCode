@@ -6,7 +6,7 @@ private fun permute(nums: IntArray): List<List<Int>> {
             return
         }
 
-        for (num in 0 until nums.size) {
+        for (num in nums.indices) {
             if (nums[num] in set) continue
             set.add(nums[num])
             backtrack(i + 1, set)

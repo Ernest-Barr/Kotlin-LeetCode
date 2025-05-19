@@ -2,7 +2,7 @@ private fun numEquivDominoPairs(dominoes: Array<IntArray>): Int {
     val map: MutableMap<List<Int>, Int> = mutableMapOf()
     var res = 0
 
-    for (i in 0 until dominoes.size) {
+    for (i in dominoes.indices) {
         val a = dominoes[i][0]
         val b = dominoes[i][1]
         val list = if (a < b) listOf(a, b) else listOf(b, a)

@@ -1,7 +1,7 @@
 import DataStructure.TreeNode
 import kotlin.math.abs
 
-fun isBalanced(root: TreeNode?): Boolean {
+private fun isBalanced(root: TreeNode?): Boolean {
     if (root == null) return true
 
     fun dfs(root: TreeNode?): Int {

@@ -4,7 +4,7 @@ private fun maxArea(height: IntArray): Int {
     var maxArea = 0
 
     while (l < r) {
-        var minHeight = minOf(height[l], height[r])
+        val minHeight = minOf(height[l], height[r])
         if (minHeight * (r - l) > maxArea) {
             maxArea = minHeight * (r - l)
         }

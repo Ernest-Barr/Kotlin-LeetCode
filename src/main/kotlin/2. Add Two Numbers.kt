@@ -1,6 +1,7 @@
 import DataStructure.ListNode
-import util.ListUtil.Companion.equalsList
-import util.ListUtil.Companion.toLinkedList
+import util.equalsList
+import util.toLinkedList
+
 
 private fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
     // Kotlin params are immutable

@@ -4,7 +4,7 @@ private fun countCompleteSubarrays(nums: IntArray): Int {
     var res = 0
     for (i in nums.indices) {
         val set: MutableSet<Int> = mutableSetOf()
-        for (j in i until nums.size) {
+        for (j in i..<nums.size) {
             set.add(nums[j])
             if (set.size == uniqueNumbers) res++
         }

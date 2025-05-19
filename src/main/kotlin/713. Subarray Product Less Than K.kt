@@ -3,7 +3,7 @@ private fun numSubarrayProductLessThanK(nums: IntArray, k: Int): Int {
     var l = 0
     var product = 1
 
-    for (r in 0 until nums.size) {
+    for (r in nums.indices) {
         product *= nums[r]
         while (l < r && product >= k) product /= nums[l++]
         if (product < k) res += (r - l) + 1

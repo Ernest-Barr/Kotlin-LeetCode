@@ -1,6 +1,6 @@
 import DataStructure.TreeNode
 
-fun isSymmetric(root: TreeNode?): Boolean {
+private fun isSymmetric(root: TreeNode?): Boolean {
     if (root == null) return true
     fun dfs(l: TreeNode?, r: TreeNode?): Boolean {
         if (l == null && r == null) return true

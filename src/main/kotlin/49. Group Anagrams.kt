@@ -1,6 +1,6 @@
 private fun groupAnagrams(strs: Array<String>): List<List<String>> {
     val map: HashMap<String, MutableList<String>> = hashMapOf()
-    for (i in 0 until strs.size) {
+    for (i in strs.indices) {
         val table = IntArray(26)
 
         for (c in strs[i]) {

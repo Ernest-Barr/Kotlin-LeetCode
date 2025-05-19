@@ -3,7 +3,7 @@ private fun countSubarrays(nums: IntArray, k: Long): Long {
     var res: Long = 0
     var sum: Long = 0
 
-    for (r in 0 until nums.size) {
+    for (r in nums.indices) {
         sum += nums[r]
         while (sum * (r - l + 1) >= k) {
             sum -= nums[l++]

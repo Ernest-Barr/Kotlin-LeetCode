@@ -4,7 +4,7 @@ import java.util.*
 private fun evalRPN(tokens: Array<String>): Int {
     val stack: Stack<Int> = Stack<Int>()
 
-    for (i in 0 until tokens.size) {
+    for (i in tokens.indices) {
         when (tokens[i]) {
             "+" -> {
                 val temp = stack.pop()

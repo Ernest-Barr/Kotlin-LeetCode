@@ -1,7 +1,7 @@
 private fun isPalindrome(s: String): Boolean {
     var start = 0
     var end = s.length - 1
-    val str = s.toLowerCase()
+    val str = s.lowercase()
     while (start <= end) {
         if (!str[start].isLetterOrDigit()) {
             start++

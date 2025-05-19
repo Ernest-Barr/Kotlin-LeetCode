@@ -2,7 +2,7 @@ private fun threeSum(nums: IntArray): List<List<Int>> {
     nums.sort()
     val res: MutableSet<List<Int>> = mutableSetOf()
 
-    for (i in 0 until nums.size - 2) {
+    for (i in 0..<nums.size - 2) {
         if (i > 0 && nums[i] == nums[i - 1]) continue
         var l = i + 1
         var r = nums.size - 1

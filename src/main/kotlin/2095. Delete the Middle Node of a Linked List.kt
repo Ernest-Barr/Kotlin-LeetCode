@@ -1,6 +1,6 @@
 import DataStructure.ListNode
-import util.ListUtil.Companion.equalsList
-import util.ListUtil.Companion.toLinkedList
+import util.equalsList
+import util.toLinkedList
 
 private fun deleteMiddle(head: ListNode?): ListNode? {
     var prev: ListNode? = null

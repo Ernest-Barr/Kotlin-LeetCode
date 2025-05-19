@@ -4,8 +4,8 @@ private fun countSubarrays(nums: IntArray, k: Int): Long {
     var res: Long = 0
     val max = nums.max()
 
-    for (r in 0 until nums.size) {
-        if (nums[r] == max) count++
+    for (element in nums) {
+        if (element == max) count++
         while (count >= k) if (nums[l++] == max) count--
         res += l
     }

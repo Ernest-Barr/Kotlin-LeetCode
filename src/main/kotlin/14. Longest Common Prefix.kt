@@ -7,16 +7,16 @@ private fun longestCommonPrefix(strs: Array<String>): String {
 
     if (left.isEmpty() || right.isEmpty()) return ""
 
-    for (i in 0 until left.length) {
+    for (i in left.indices) {
         if (left[i] == right[i]) {
-            prefixLen++;
+            prefixLen++
         } else {
-            break;
+            break
         }
     }
     val prefix = left.substring(0, prefixLen)
 
-    for (i in 1 until strs.size) {
+    for (i in 1..<strs.size) {
         if (strs[i].substring(0, prefixLen) != prefix) {
             return ""
         }

@@ -1,5 +1,6 @@
 import DataStructure.ListNode
-import util.ListUtil.Companion.printList
+import util.printList
+
 
 private fun middleNode(head: ListNode?): ListNode? {
     var slow: ListNode? = head

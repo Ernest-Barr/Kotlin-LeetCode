@@ -1,7 +1,7 @@
 private fun getConcatenation(nums: IntArray): IntArray {
     val res: IntArray = IntArray(nums.size * 2)
 
-    for (i in 0 until nums.size) {
+    for (i in nums.indices) {
         res[i] = nums[i]
         res[i + nums.size] = nums[i]
     }

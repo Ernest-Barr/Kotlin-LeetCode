@@ -3,7 +3,7 @@ import java.util.*
 private fun calPoints(operations: Array<String>): Int {
     val stack = Stack<Int>()
     var res = 0
-    for (i in 0 until operations.size) {
+    for (i in operations.indices) {
         when (operations[i]) {
             "C" -> {
                 stack.pop()

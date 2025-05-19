@@ -1,6 +1,7 @@
 import DataStructure.ListNode
-import util.ListUtil.Companion.equalsList
-import util.ListUtil.Companion.toLinkedList
+import util.equalsList
+import util.toLinkedList
+
 
 private fun removeNthFromEnd(head: ListNode?, n: Int): ListNode? {
     val res = ListNode(0)
@@ -8,13 +9,13 @@ private fun removeNthFromEnd(head: ListNode?, n: Int): ListNode? {
     var current: ListNode? = res
     var delayed: ListNode? = res
 
-    for (i in 0 until n + 1) {
+    for (i in 0..<n + 1) {
         current = current?.next
     }
 
     while (current != null) {
         delayed = delayed?.next
-        current = current?.next
+        current = current.next
     }
 
     delayed?.next = delayed?.next?.next
