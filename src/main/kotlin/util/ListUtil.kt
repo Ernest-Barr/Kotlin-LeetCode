@@ -6,7 +6,7 @@ import DataStructure.ListNode
 fun ListNode?.printList() {
     var node = this
     while (node != null) {
-        if (node.next != null) print("${node}, ") else println(node)
+        if (node.next != null) print("$node, ") else println(node)
         node = node.next
     }
 }
@@ -33,9 +33,11 @@ fun ListNode?.equalsList(other: ListNode?): Boolean {
  */
 fun IntArray.toLinkedList(): ListNode? {
     if (this.isEmpty()) return null
-    val dummy = ListNode(0)
+
     var current: ListNode? = ListNode(this[0])
+    val dummy = ListNode(0)
     dummy.next = current
+
     for (i in 1..<this.size) {
         current?.next = ListNode(this[i])
         current = current?.next
