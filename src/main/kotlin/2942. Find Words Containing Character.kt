@@ -7,7 +7,3 @@ private fun findWordsContaining(words: Array<String>, x: Char): List<Int> {
 
     return res
 }
-
-fun main() {
-    //TODO: Test cases
-}

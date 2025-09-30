@@ -16,7 +16,3 @@ private fun longestSubarray(nums: IntArray): Int {
 
     return res
 }
-
-fun main() {
-    //TODO: Test cases
-}

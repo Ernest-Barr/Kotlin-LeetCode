@@ -16,8 +16,3 @@ fun diameterOfBinaryTree(root: TreeNode?): Int {
     dfs(root)
     return res
 }
-
-
-fun main() {
-//    TODO: Test cases
-}

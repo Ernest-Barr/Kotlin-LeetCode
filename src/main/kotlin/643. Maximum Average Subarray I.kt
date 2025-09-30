@@ -14,7 +14,3 @@ private fun findMaxAverage(nums: IntArray, k: Int): Double {
 
     return res
 }
-
-fun main() {
-    //TODO: Test cases
-}

@@ -16,7 +16,3 @@ private fun longestOnes(nums: IntArray, k: Int): Int {
 
     return res
 }
-
-fun main() {
-    //TODO: Test cases
-}

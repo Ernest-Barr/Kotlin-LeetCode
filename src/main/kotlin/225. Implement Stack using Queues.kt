@@ -18,7 +18,3 @@ private class MyStack() {
     }
 
 }
-
-fun main() {
-    //TODO: Test cases
-}

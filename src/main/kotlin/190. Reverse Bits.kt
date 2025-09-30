@@ -8,8 +8,3 @@ fun reverseBits(n: Int): Int {
 
     return res
 }
-
-fun main() {
-    println(reverseBits(43261596) == 964176192)
-    // TODO Test cases
-}

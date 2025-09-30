@@ -17,7 +17,3 @@ private class MyHashSet() {
         return key in list[hash(key)]
     }
 }
-
-fun main() {
-    // TODO: Test cases
-}

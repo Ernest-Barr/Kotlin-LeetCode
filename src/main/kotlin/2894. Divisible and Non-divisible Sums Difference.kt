@@ -6,7 +6,3 @@ private fun differenceOfSums(n: Int, m: Int): Int {
 
     return num1 - num2
 }
-
-fun main() {
-    //TODO: Test cases
-}

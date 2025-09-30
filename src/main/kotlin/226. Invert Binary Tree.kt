@@ -14,7 +14,3 @@ private fun invertTree(root: TreeNode?): TreeNode? {
     invert(root)
     return root
 }
-
-fun main() {
-//TODO Output
-}

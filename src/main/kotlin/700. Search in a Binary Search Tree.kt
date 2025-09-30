@@ -14,7 +14,3 @@ private fun searchBST(root: TreeNode?, `val`: Int): TreeNode? {
     search(root)
     return res
 }
-
-fun main() {
-//TODO cases
-}

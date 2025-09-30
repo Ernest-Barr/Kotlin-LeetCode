@@ -24,7 +24,3 @@ private fun numIslands(grid: Array<CharArray>): Int {
 
     return res
 }
-
-fun main() {
-    //TODO Test cases
-}

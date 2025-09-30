@@ -28,7 +28,3 @@ private fun insertIntoBST(root: TreeNode?, `val`: Int): TreeNode? {
 
     return root
 }
-
-fun main() {
-    //TODO Test cases
-}

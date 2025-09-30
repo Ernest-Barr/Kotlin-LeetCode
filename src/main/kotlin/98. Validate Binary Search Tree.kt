@@ -5,11 +5,13 @@ private fun isValidBST(root: TreeNode?): Boolean {
     var res = true
     fun inOrder(root: TreeNode?) {
         if (root == null) return
-        inOrder(root?.left)
+        inOrder(root.left)
+
         if (prev != null && prev!!.`val` >= root.`val`) {
             res = false
             return
         }
+
         prev = root
         inOrder(root?.right)
 

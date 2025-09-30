@@ -14,7 +14,3 @@ private fun isBalanced(root: TreeNode?): Boolean {
 
     return abs(l - r) <= 1 && isBalanced(root.left) && isBalanced(root.right)
 }
-
-fun main() {
-    //TODO: Test cases
-}

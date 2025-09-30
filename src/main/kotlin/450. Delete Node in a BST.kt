@@ -26,7 +26,3 @@ private fun deleteNode(root: TreeNode?, key: Int): TreeNode? {
 
     return delete(root, key)
 }
-
-fun main() {
-    //TODO: Test cases
-}

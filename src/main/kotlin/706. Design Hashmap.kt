@@ -50,7 +50,3 @@ private class MyHashMap() {
         }
     }
 }
-
-fun main() {
-    //TODO: Test cases
-}

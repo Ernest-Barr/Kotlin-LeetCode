@@ -6,7 +6,3 @@ private fun minDepth(root: TreeNode?): Int {
     if(root.right == null) return 1 + minDepth(root.left)
     return 1 + minOf(minDepth(root.left), minDepth(root.right))
 }
-
-fun main() {
-    //TODO: Test cases
-}

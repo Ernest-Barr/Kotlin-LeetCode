@@ -12,13 +12,9 @@ private fun islandPerimeter(grid: Array<IntArray>): Int {
 
     for (i in grid.indices) {
         for (j in grid[i].indices) {
-            if (grid[i][j] == 1) res += visit(i,j)
+            if (grid[i][j] == 1) res += visit(i, j)
         }
     }
 
     return res
-}
-
-fun main() {
-    //TODO: tests
 }

@@ -19,7 +19,3 @@ fun maxAreaOfIsland(grid: Array<IntArray>): Int {
 
     return res
 }
-
-fun main() {
-    //TODO: Test cases
-}

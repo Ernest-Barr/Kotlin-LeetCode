@@ -13,7 +13,3 @@ private fun findMaxConsecutiveOnes(nums: IntArray): Int {
 
     return res
 }
-
-fun main() {
-    //TODO: Test cases
-}

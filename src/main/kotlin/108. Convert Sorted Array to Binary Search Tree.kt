@@ -13,7 +13,3 @@ private fun sortedArrayToBST(nums: IntArray): TreeNode? {
 
     return helper(0, nums.lastIndex)
 }
-
-fun main() {
-    //TODO: Test cases
-}
