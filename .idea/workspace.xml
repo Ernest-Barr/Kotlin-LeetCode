@@ -4,48 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3942220b-b6a5-4e38-8b64-3d9d5dc8f8dd" name="Changes" comment="Added remaining problems from May + 9/1/25">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1137. N-th Tribonacci Number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/120. Triangle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/122. Best Time to Buy and Sell Stock II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1304. Find N Unique Integers Sum Up to Zero.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1317. Convert Integer to the Sum of Two No-Zero Integers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/148. Sort List.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/17. Letter Combinations of a Phone Number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1935. Maximum Number of Words You Can Type.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/202. Happy Number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/204. Count Primes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2197. Replace Non-Coprime Numbers in Array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/22. Generate Parentheses.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2221. Find Triangular Sum of an Array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/23. Merge k Sorted Lists.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2396. Strictly Palindromic Number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2427. Number of Common Factors.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2525. Categorize Box According to Criteria.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/263. Ugly Number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2785. Sort Vowels in a String.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/287. Find the Duplicate Number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3005. Count Elements With Maximum Frequency.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3043. Find the Length of the Longest Common Prefix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3227. Vowels Game in a String.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/345. Reverse Vowels of a String.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3484. Design Spreadsheet.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3516. Find Closest Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3541. Find Most Frequent Vowel and Consonant.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/4. Median of Two Sorted Arrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/412. Fizz Buzz.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/611. Valid Triangle Number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/645. Set Mismatch.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/70. Climbing Stairs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/703. Kth Largest Element in a Stream.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/709. To Lower Case.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/812. Largest Triangle Area.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/860. Lemonade Change.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/912. Sort an Array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/966. Vowel Spellchecker.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/976. Largest Perimeter Triangle.kt" afterDir="false" />
+    <list default="true" id="3942220b-b6a5-4e38-8b64-3d9d5dc8f8dd" name="Changes" comment="Added problems from 10-1-25 to 10-14-25">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/118. Pascal's Triangle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/119. Pascal's Triangle II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/128. Longest Consecutive Sequence.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2011. Find Value of Variable After Performing Operations.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/215. Kth Largest Element in an Array.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/217. Contains Duplicate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2177. Find Three Consecutive Integers That Sum to a Given Number.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2284. Sender With Largest Word Count.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/238. Product of Array Except Self.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2806. Account Balance After Rounded Purchase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/32. Longest Valid Parentheses.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/347. Top K Frequent Elements.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/62. Unique Paths.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/66. Plus One.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/692. Top K Frequent Words.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/739. Daily Temperatures.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/80. Remove Duplicates from Sorted Array II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/973. K Closest Points to Origin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/98. Validate Binary Search Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/98. Validate Binary Search Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/23. Merge k Sorted Lists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/23. Merge k Sorted Lists.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3541. Find Most Frequent Vowel and Consonant.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/3541. Find Most Frequent Vowel and Consonant.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/709. To Lower Case.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/709. To Lower Case.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +240,15 @@
       <workItem from="1757722199799" duration="1637000" />
       <workItem from="1757799304598" duration="13415000" />
       <workItem from="1758061189656" duration="36762000" />
-      <workItem from="1759083229060" duration="2623000" />
+      <workItem from="1759083229060" duration="5700000" />
+      <workItem from="1759362745243" duration="1925000" />
+      <workItem from="1759542508839" duration="772000" />
+      <workItem from="1759624325870" duration="4605000" />
+      <workItem from="1760274884530" duration="6335000" />
+      <workItem from="1760561172970" duration="1961000" />
+      <workItem from="1760651958749" duration="850000" />
+      <workItem from="1760738168734" duration="8531000" />
+      <workItem from="1761008158852" duration="5677000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -317,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756757779874</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added problems from september">
+      <option name="closed" value="true" />
+      <created>1759196554380</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759196554380</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +339,8 @@
     <MESSAGE value="Added questions from 5/17-5/19" />
     <MESSAGE value="Added questions from 5/20-5/22" />
     <MESSAGE value="Added remaining problems from May + 9/1/25" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added remaining problems from May + 9/1/25" />
+    <MESSAGE value="Added problems from september" />
+    <MESSAGE value="Added problems from 10-1-25 to 10-14-25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added problems from 10-1-25 to 10-14-25" />
   </component>
 </project>

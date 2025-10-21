@@ -1,4 +1,4 @@
-fun toLowerCase(s: String): String {
+private fun toLowerCase(s: String): String {
     val res = StringBuilder(s)
 
     for (c in res.indices) {
