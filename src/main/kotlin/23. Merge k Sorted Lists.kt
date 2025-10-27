@@ -1,7 +1,7 @@
 import DataStructure.ListNode
 import java.util.*
 
-fun mergeKLists(lists: Array<ListNode?>): ListNode? {
+fun mergeKListsBF(lists: Array<ListNode?>): ListNode? {
 
     if (lists.size == 1) return lists[0]
 
