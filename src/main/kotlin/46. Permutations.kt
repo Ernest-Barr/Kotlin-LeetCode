@@ -13,27 +13,7 @@ private fun permute(nums: IntArray): List<List<Int>> {
             set.removeLast()
         }
     }
+
     backtrack(0, mutableListOf())
     return res
-}
-
-fun main() {
-    println(
-        permute(intArrayOf(1, 2, 3)) == listOf(
-            listOf(1, 2, 3),
-            listOf(1, 3, 2),
-            listOf(2, 1, 3),
-            listOf(2, 3, 1),
-            listOf(3, 1, 2),
-            listOf(3, 2, 1)
-        )
-    )
-
-    println(
-        permute(intArrayOf(0, 1)) == listOf(listOf(0, 1), listOf(1, 0))
-    )
-
-    println(
-        permute(intArrayOf(1)) == listOf(listOf(1))
-    )
 }

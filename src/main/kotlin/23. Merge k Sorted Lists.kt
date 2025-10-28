@@ -45,11 +45,9 @@ fun mergeKListsBF(lists: Array<ListNode?>): ListNode? {
 }
 
 fun mergeKListsHeap(lists: Array<ListNode?>): ListNode? {
-    val queue = PriorityQueue<ListNode> { a, b ->
-        a.`val`.compareTo(b.`val`)
-    }
+    val queue = PriorityQueue<ListNode>(compareBy{it.`val`})
 
-    val tail: ListNode = ListNode(0) // Tail end of result list
+    val tail = ListNode(0) // Tail end of result list
     val res = tail // Pointer to head
 
     for (list in lists) queue.offer(list)
@@ -57,7 +55,7 @@ fun mergeKListsHeap(lists: Array<ListNode?>): ListNode? {
     while (queue.isNotEmpty()) {
         var curr = queue.poll()
 
-        tail?.next = curr
+        tail.next = curr
         curr = curr?.next
 
         if (curr != null) queue.offer(curr)
