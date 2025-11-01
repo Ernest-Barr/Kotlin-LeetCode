@@ -31,22 +31,3 @@ private fun mergeTwoLists(list1: ListNode?, list2: ListNode?): ListNode? {
 
     return copy?.next
 }
-
-fun main() {
-    // Lists must be sorted
-    val listOne = ListNode(1)
-    listOne.next = ListNode(5)
-    listOne.next!!.next = ListNode(10)
-
-    val listTwo = ListNode(2)
-    listTwo.next = ListNode(3)
-    listTwo.next!!.next = ListNode(4)
-    listTwo.next!!.next!!.next = ListNode(7)
-
-    var merged = mergeTwoLists(listOne, listTwo)
-
-    while (merged != null) {
-        println(merged.`val`)
-        merged = merged.next
-    }
-}

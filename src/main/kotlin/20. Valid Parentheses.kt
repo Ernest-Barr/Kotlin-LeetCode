@@ -24,9 +24,3 @@ private fun isValid(str: String): Boolean {
     openChars.pop()
     return openChars.isEmpty()
 }
-
-fun main() {
-    println(isValid("(){[](()()(([{}])))()}"))
-    println(isValid("(]"))
-    println(isValid("}"))
-}

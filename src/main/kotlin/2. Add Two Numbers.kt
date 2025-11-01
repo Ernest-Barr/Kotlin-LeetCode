@@ -46,9 +46,3 @@ private fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
 
     return l1Copy
 }
-
-fun main() {
-    println(addTwoNumbers(intArrayOf(2,4,3).toLinkedList(), intArrayOf(5,6,4).toLinkedList()).equalsList(intArrayOf(7,0,8).toLinkedList()))
-    println(addTwoNumbers(intArrayOf(0).toLinkedList(), intArrayOf(0).toLinkedList()).equalsList(intArrayOf(0).toLinkedList()))
-    println(addTwoNumbers(intArrayOf(9,9,9,9,9,9,9).toLinkedList(), intArrayOf(9,9,9,9).toLinkedList()).equalsList(intArrayOf(8,9,9,9,0,0,0,1).toLinkedList()))
-}

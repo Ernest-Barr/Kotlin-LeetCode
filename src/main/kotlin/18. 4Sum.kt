@@ -25,15 +25,3 @@ private fun fourSum(nums: IntArray, target: Int): List<List<Int>> {
     }
     return res.toList()
 }
-
-fun main() {
-    println(
-        fourSum(intArrayOf(1, 0, -1, 0, -2, 2), 0) == listOf(
-            listOf(-2, -1, 1, 2),
-            listOf(-2, 0, 0, 2),
-            listOf(-1, 0, 0, 1)
-        )
-    )
-
-    println(fourSum(intArrayOf(2, 2, 2, 2, 2), 8) == listOf(listOf(2, 2, 2, 2)))
-}

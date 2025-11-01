@@ -10,11 +10,3 @@ private fun strStr(haystack: String, needle: String): Int {
     }
     return -1
 }
-fun main() {
-    println(strStr("asdfasdfasdfcatasdfasdf", "cat"))
-    println(strStr("acaccacacacac", "ac"))
-    println(strStr("a", "a"))
-    println(strStr("a", "bababa"))
-    println(strStr("bbb", "bbb"))
-    println(strStr("bbb", ""))
-}

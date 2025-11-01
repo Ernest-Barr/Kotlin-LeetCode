@@ -11,11 +11,3 @@ private fun sqrt(num: Int): Int {
 
     return x.toInt()
 }
-
-fun main() {
-    println(sqrt(65) == sqrt(65.0).toInt())
-    println(sqrt(64))
-    println(sqrt(36))
-    println(sqrt(130))
-    println(sqrt(Int.MAX_VALUE))
-}

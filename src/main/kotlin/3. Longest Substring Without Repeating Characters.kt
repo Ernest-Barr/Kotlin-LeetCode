@@ -15,10 +15,3 @@ private fun lengthOfLongestSubstring(s: String): Int {
 
     return res
 }
-
-
-fun main() {
-    println(lengthOfLongestSubstring("abcabcbb") == 3)
-    println(lengthOfLongestSubstring("bbbbb") == 1)
-    println(lengthOfLongestSubstring("pwwkew") == 3)
-}

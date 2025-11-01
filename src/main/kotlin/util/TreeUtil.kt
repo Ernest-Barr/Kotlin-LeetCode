@@ -5,7 +5,6 @@ import DataStructure.TreeNode
 fun TreeNode?.print() {
     val h = this.getHeight()
 
-
 }
 
 fun TreeNode?.getHeight(): Int {

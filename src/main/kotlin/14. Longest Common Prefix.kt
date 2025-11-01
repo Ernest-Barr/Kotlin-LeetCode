@@ -24,7 +24,3 @@ private fun longestCommonPrefix(strs: Array<String>): String {
 
     return prefix
 }
-
-fun main() {
-    println(longestCommonPrefix(arrayOf("cat" , "car", "cal", "calf")))
-}

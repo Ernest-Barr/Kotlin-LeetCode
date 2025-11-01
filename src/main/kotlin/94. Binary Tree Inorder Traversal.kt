@@ -12,15 +12,3 @@ private fun inorderTraversal(root: TreeNode?): List<Int> {
 
     return list
 }
-
-fun main() {
-    val treeOne = TreeNode(5)
-    treeOne.left = TreeNode(2)
-    treeOne.left!!.right = TreeNode(3)
-    treeOne.left!!.left = TreeNode(1)
-    treeOne.right = TreeNode(9)
-    treeOne.right!!.left = TreeNode(7)
-    treeOne.right!!.right = TreeNode(10)
-    println(inorderTraversal(treeOne).joinToString(", "))
-}
-

@@ -12,10 +12,3 @@ private fun searchInsert(nums: IntArray, target: Int): Int {
     }
     return left
 }
-
-fun main() {
-    println(searchInsert(intArrayOf(1, 2, 3, 5, 6), 4))
-    println(searchInsert(intArrayOf(1, 2, 3, 4), -1))
-    println(searchInsert(intArrayOf(-1, -2, 3, 4, 5, 6, 7), -3))
-    println(searchInsert(intArrayOf(1,2,3,4,5), Int.MAX_VALUE))
-}

@@ -19,8 +19,3 @@ private fun maxArea(height: IntArray): Int {
 
     return maxArea
 }
-
-fun main() {
-    println(maxArea(intArrayOf(1,8,6,2,5,4,8,3,7)) == 49)
-    println(maxArea(intArrayOf(1,1)) == 1)
-}

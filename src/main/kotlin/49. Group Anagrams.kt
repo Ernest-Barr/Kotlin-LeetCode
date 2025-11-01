@@ -25,8 +25,3 @@ private fun groupAnagrams(strs: Array<String>): List<List<String>> {
     }
     return map.values.toList()
 }
-
-fun main() {
-    println(groupAnagrams(arrayOf("")) == listOf(listOf("")))
-    println(groupAnagrams(arrayOf("a")) == listOf(listOf("a")))
-}

@@ -16,17 +16,3 @@ private fun isPalindrome(s: String): Boolean {
     }
     return true
 }
-
-
-fun main() {
-    println(isPalindrome("Racecar"))
-    println(isPalindrome("Radar"))
-    println(isPalindrome("Madam"))
-    println(isPalindrome("Level"))
-    println(isPalindrome("Rotor"))
-    println(isPalindrome("Civic"))
-    println(isPalindrome("Refer"))
-    println(isPalindrome("Test"))
-    println(isPalindrome("Hello"))
-}
-

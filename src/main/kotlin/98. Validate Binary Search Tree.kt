@@ -19,18 +19,3 @@ private fun isValidBST(root: TreeNode?): Boolean {
     inOrder(root)
     return res
 }
-
-fun main() {
-    val treeOne = TreeNode(2)
-    treeOne.left = TreeNode(1)
-    treeOne.right = TreeNode(3)
-
-    println(isValidBST(treeOne))
-
-    val treeTwo = TreeNode(5)
-    treeTwo.left = TreeNode(1)
-    treeTwo.right = TreeNode(4)
-    treeTwo.right!!.left = TreeNode(3)
-    treeTwo.right!!.right = TreeNode(6)
-    println(isValidBST(treeTwo))
-}

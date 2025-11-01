@@ -28,8 +28,3 @@ private fun threeSumClosest(nums: IntArray, target: Int): Int {
 
     return res
 }
-
-fun main() {
-    println(threeSumClosest(intArrayOf(-1, 2, 1, -4), 2) == 2)
-    println(threeSumClosest(intArrayOf(0, 0, 0), 1) == 0)
-}

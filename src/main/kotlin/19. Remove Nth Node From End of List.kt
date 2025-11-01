@@ -21,13 +21,3 @@ private fun removeNthFromEnd(head: ListNode?, n: Int): ListNode? {
     delayed?.next = delayed?.next?.next
     return res.next
 }
-
-fun main() {
-    println(
-        removeNthFromEnd(intArrayOf(1, 2, 3, 4, 5).toLinkedList(), 2).equalsList(
-            intArrayOf(1, 2, 3, 5).toLinkedList()
-        )
-    )
-
-    println(removeNthFromEnd(intArrayOf(1, 2).toLinkedList(), 1).equalsList(intArrayOf(1, 2).toLinkedList()))
-}

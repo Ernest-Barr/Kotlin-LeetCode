@@ -10,7 +10,7 @@ fun mergeKListsBF(lists: Array<ListNode?>): ListNode? {
 
     fun merge(list1: ListNode?, list2: ListNode?): ListNode? {
         var merged: ListNode? = ListNode(0)
-        var c: ListNode? = merged
+        val c: ListNode? = merged
         var l1 = list1
         var l2 = list2
 

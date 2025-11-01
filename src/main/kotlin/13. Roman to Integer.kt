@@ -25,7 +25,3 @@ fun romanToInt(s: String): Int {
     sum += vals(s[s.length - 1])
     return sum
 }
-
-fun main() {
-    println(romanToInt("III"))
-}

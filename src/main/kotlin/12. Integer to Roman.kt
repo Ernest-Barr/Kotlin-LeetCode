@@ -19,9 +19,3 @@ private fun intToRoman(num: Int): String {
     }
     return res
 }
-
-fun main() {
-    println(intToRoman(3749) == "MMMDCCXLIX")
-    println(intToRoman(58) == "LVIII")
-    println(intToRoman(1994) == "MCMXCIV")
-}

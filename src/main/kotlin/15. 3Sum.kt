@@ -22,9 +22,3 @@ private fun threeSum(nums: IntArray): List<List<Int>> {
     }
     return res.toList()
 }
-
-fun main() {
-    println(threeSum(intArrayOf(-1, 0, 1, 2, -1, -4)) == listOf(listOf(-1, -1, 2), listOf(-1, 0, 1)))
-//    println(threeSum(intArrayOf(0, 1, 1)) == listOf(listOf<Int>()))
-    println(threeSum(intArrayOf(0, 0, 0)) == listOf(listOf(0, 0, 0)))
-}
