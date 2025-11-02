@@ -3,41 +3,58 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Environment/UserInterface/HierarchyView/ViewStyle/@EntryValue" value="SuperTypes" type="string" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3942220b-b6a5-4e38-8b64-3d9d5dc8f8dd" name="Changes" comment="Added problems from 10-14-25 to 10-21-25">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/102. Binary Tree Level Order Traversal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/103. Binary Tree Zigzag Level Order Traversal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1046. Last Stone Weight.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/107. Binary Tree Level Order Traversal II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/130. Surrounded Regions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1716. Calculate Money in Leetcode Bank.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2043. Simple Bank System.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2048. Next Greater Numerically Balanced Number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/205. Isomorphic Strings.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2125. Number of Laser Beams in a Bank.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/268. Missing Number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3354. Make Array Elements Equal to Zero.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3461. Check If Digits Are Equal in String After Operations I.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3692. Majority Frequency Characters.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/451. Sort Characters by Frequency.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/54. Spiral Matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/59. Spiral Matrix II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/6. Zigzag Conversion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/653. Two Sum IV - Input is a BST.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/71. Simplify Path.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/733. Flood Fill.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/767. Reorganize String.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/994. Rotting Oranges.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DataStructure/Node.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="3942220b-b6a5-4e38-8b64-3d9d5dc8f8dd" name="Changes" comment="Added remaining problems from October.">
+      <change afterPath="$PROJECT_DIR$/src/main/cpp/1. Two Sum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/cpp/15. 3Sum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/cpp/167. Two Sum II - Input Array Is Sorted.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/149. Max Points on a Line.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1679. Max Number of K-Sum Pairs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1828. Queries on Number of Points Inside a Circle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2257. Count Unguarded Cells in the Grid.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3731. Find Missing Elements.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3732. Maximum Product of Three Elements After One Replacement.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/429. N-ary Tree Level Order Traversal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/589. N-ary Tree Preorder Traversal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/590. N-ary Tree Postorder Traversal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/933. Number of Recent Calls.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/util/Geometry.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/23. Merge k Sorted Lists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/23. Merge k Sorted Lists.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/46. Permutations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/46. Permutations.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/167. Two Sum II - Input Array Is Sorted.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/167. Two Sum II - Input Array Is Sorted.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/50. Pow(x,n).kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/50. Pow(x,n).kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DataStructure/Node.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/DataStructure/Node.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,6 +74,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2025" />
+    <option name="minorVersion" value="2.3" />
+    <option name="productBranch" value="Classic" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -64,6 +87,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2oUTdLY3CtxaKIv8cOXoJzEAgcr" />
+  <component name="ProjectStatusUIService">{
+  &quot;uiKindId&quot;: &quot;Widget&quot;
+}</component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -161,13 +187,19 @@
     &quot;Kotlin._977__Squares_of_Sorted_ArrayKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin._977__Squares_of_a_Sorted_ArrayKt.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ernest/projects/school/cnt-4504/iterative-socket-server&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ernest/projects/KTLeetCode&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -177,7 +209,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -191,6 +223,74 @@
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
       <recent name="DataStructure" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="KTLeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="KTLeetCode" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="KTLeetCode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="KTLeetCode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="KTLeetCode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -269,7 +369,9 @@
       <workItem from="1761425550780" duration="1631000" />
       <workItem from="1761428215279" duration="594000" />
       <workItem from="1761429631656" duration="7507000" />
-      <workItem from="1761489661596" duration="21667000" />
+      <workItem from="1761489661596" duration="58433000" />
+      <workItem from="1762019045726" duration="313000" />
+      <workItem from="1762020422243" duration="1099000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -343,11 +445,24 @@
       <option name="project" value="LOCAL" />
       <updated>1761063877516</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added problems from 10-21-25 to 10-28-25">
+      <option name="closed" value="true" />
+      <created>1761690804657</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1761690804657</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -371,6 +486,8 @@
     <MESSAGE value="Added problems from september" />
     <MESSAGE value="Added problems from 10-1-25 to 10-14-25" />
     <MESSAGE value="Added problems from 10-14-25 to 10-21-25" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added problems from 10-14-25 to 10-21-25" />
+    <MESSAGE value="Added problems from 10-21-25 to 10-28-25" />
+    <MESSAGE value="Added remaining problems from October." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added remaining problems from October." />
   </component>
 </project>

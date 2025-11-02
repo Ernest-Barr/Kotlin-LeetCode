@@ -13,9 +13,3 @@ private fun twoSum(numbers: IntArray, target: Int): IntArray {
     }
     return intArrayOf(-1)
 }
-
-fun main() {
-    println(twoSum(intArrayOf(2, 7, 11, 15), 9).joinToString(", "))
-    println(twoSum(intArrayOf(2, 3, 4), 6).joinToString(", "))
-    println(twoSum(intArrayOf(-1, 0), -1).joinToString(", "))
-}

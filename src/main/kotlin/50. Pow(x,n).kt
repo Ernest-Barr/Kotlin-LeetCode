@@ -1,4 +1,5 @@
 import kotlin.math.pow
+
 private fun myPow(x: Double, n: Int): Double {
     if (x == 0.0) return 0.0
     if (n == 0) return 1.0

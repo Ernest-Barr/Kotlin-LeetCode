@@ -1,3 +1,3 @@
-# Kotlin LeetCode Solutions
+# LeetCode Solutions
 
-Every LeetCode question I have solved with Kotlin.
+Every LeetCode question I have solved with Kotlin & C++.
