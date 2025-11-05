@@ -27,26 +27,248 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3942220b-b6a5-4e38-8b64-3d9d5dc8f8dd" name="Changes" comment="Added remaining problems from October.">
-      <change afterPath="$PROJECT_DIR$/src/main/cpp/1. Two Sum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/cpp/15. 3Sum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/cpp/167. Two Sum II - Input Array Is Sorted.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/149. Max Points on a Line.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1679. Max Number of K-Sum Pairs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1828. Queries on Number of Points Inside a Circle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2257. Count Unguarded Cells in the Grid.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3731. Find Missing Elements.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3732. Maximum Product of Three Elements After One Replacement.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/429. N-ary Tree Level Order Traversal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/589. N-ary Tree Preorder Traversal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/590. N-ary Tree Postorder Traversal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/933. Number of Recent Calls.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/util/Geometry.kt" afterDir="false" />
+    <list default="true" id="3942220b-b6a5-4e38-8b64-3d9d5dc8f8dd" name="Changes" comment="Added problems from 11-01-25 to 11-02-25">
+      <change afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1232. Check If It Is a Straight Line.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1578. Minimum Time to Make Rope Colorful.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1926. Nearest Exit from Entrance in Maze.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3318. Find X-Sum of All K-Long Subarrays I.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/338. Counting Bits.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/167. Two Sum II - Input Array Is Sorted.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/167. Two Sum II - Input Array Is Sorted.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/50. Pow(x,n).kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/50. Pow(x,n).kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DataStructure/Node.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/DataStructure/Node.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KTLeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/KTLeetCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/1. Two Sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/CPP/problems/1. Two Sum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/15. 3Sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/CPP/problems/15. 3Sum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/167. Two Sum II - Input Array Is Sorted.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/CPP/problems/167. Two Sum II - Input Array Is Sorted.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1. Two Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1. Two Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/100. Same Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/100. Same Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1004. Max Consecutive Ones III.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1004. Max Consecutive Ones III.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/101. Symmetric Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/101. Symmetric Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/102. Binary Tree Level Order Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/102. Binary Tree Level Order Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/103. Binary Tree Zigzag Level Order Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/103. Binary Tree Zigzag Level Order Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/104. Maximum Depth of Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/104. Maximum Depth of Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1046. Last Stone Weight.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1046. Last Stone Weight.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/107. Binary Tree Level Order Traversal II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/107. Binary Tree Level Order Traversal II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/108. Convert Sorted Array to Binary Search Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/108. Convert Sorted Array to Binary Search Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1099. Two Sum Less Than K.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1099. Two Sum Less Than K.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/11. Container With Most Water.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/11. Container With Most Water.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/110. Balanced Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/110. Balanced Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/111. Minimum Depth of Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/111. Minimum Depth of Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/112. Path Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/112. Path Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1128. Number of Equivalent Domino Pairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1128. Number of Equivalent Domino Pairs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1137. N-th Tribonacci Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1137. N-th Tribonacci Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/114. Flatten Binary Tree to Linked List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/114. Flatten Binary Tree to Linked List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1161. Maximum Level Sum of a Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1161. Maximum Level Sum of a Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/118. Pascal's Triangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/118. Pascal's Triangle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1189. Maximum Number of Balloons.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1189. Maximum Number of Balloons.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/119. Pascal's Triangle II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/119. Pascal's Triangle II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/12. Integer to Roman.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/12. Integer to Roman.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/120. Triangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/120. Triangle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/121. Best Time to Buy and Sell Stock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/121. Best Time to Buy and Sell Stock.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1214. Two Sum BSTs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1214. Two Sum BSTs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/122. Best Time to Buy and Sell Stock II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/122. Best Time to Buy and Sell Stock II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/125. Valid Palindrome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/125. Valid Palindrome.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/128. Longest Consecutive Sequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/128. Longest Consecutive Sequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1295. Find Numbers With Even Number of Digits.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1295. Find Numbers With Even Number of Digits.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/13. Roman to Integer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/13. Roman to Integer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/130. Surrounded Regions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/130. Surrounded Regions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1304. Find N Unique Integers Sum Up to Zero.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1304. Find N Unique Integers Sum Up to Zero.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1317. Convert Integer to the Sum of Two No-Zero Integers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1317. Convert Integer to the Sum of Two No-Zero Integers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1325. Delete Leaves With a Given Value.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1325. Delete Leaves With a Given Value.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/136. Single Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/136. Single Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1399. Count Largest Groups.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1399. Count Largest Groups.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/14. Longest Common Prefix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/14. Longest Common Prefix.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/141. Linked List Cycle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/141. Linked List Cycle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/142. Linked List Cycle II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/142. Linked List Cycle II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/144. Binary  Tree Preorder Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/144. Binary  Tree Preorder Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/145. Binary Tree Postorder Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/145. Binary Tree Postorder Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/148. Sort List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/148. Sort List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/149. Max Points on a Line.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/149. Max Points on a Line.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1493. Longest Subarray of 1's After Deleting One Element.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1493. Longest Subarray of 1's After Deleting One Element.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/15. 3Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/15. 3Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/150. Evaluate Reverse Polish Notation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/150. Evaluate Reverse Polish Notation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/151. Reverse Words in a String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/151. Reverse Words in a String.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1526. Minimum Number of Increments on Subarrays to Form a Target Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1526. Minimum Number of Increments on Subarrays to Form a Target Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/16. 3Sum Closest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/16. 3Sum Closest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/160. Intersection of Two Linked Lists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/160. Intersection of Two Linked Lists.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1657. Determine if Two Strings Are Close.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1657. Determine if Two Strings Are Close.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/167. Two Sum II - Input Array Is Sorted.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/167. Two Sum II - Input Array Is Sorted.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1679. Max Number of K-Sum Pairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1679. Max Number of K-Sum Pairs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/168. Excel Sheet Column Title.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/168. Excel Sheet Column Title.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/169. Majority Element.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/169. Majority Element.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/17. Letter Combinations of a Phone Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/17. Letter Combinations of a Phone Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/170. Two Sum III - Data structure design.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/170. Two Sum III - Data structure design.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1716. Calculate Money in Leetcode Bank.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1716. Calculate Money in Leetcode Bank.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1768. Merge Strings Alternatively.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1768. Merge Strings Alternatively.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/18. 4Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/18. 4Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1828. Queries on Number of Points Inside a Circle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1828. Queries on Number of Points Inside a Circle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/19. Remove Nth Node From End of List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/19. Remove Nth Node From End of List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/190. Reverse Bits.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/190. Reverse Bits.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/191. Number of 1 Bits.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/191. Number of 1 Bits.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1920. Build Array From Permutation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1920. Build Array From Permutation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1929. Concatenation of Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1929. Concatenation of Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1935. Maximum Number of Words You Can Type.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/1935. Maximum Number of Words You Can Type.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/199. Binary Tree Right Side View.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/199. Binary Tree Right Side View.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2. Add Two Numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2. Add Two Numbers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/20. Valid Parentheses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/20. Valid Parentheses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/200. Number of Islands.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/200. Number of Islands.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2011. Find Value of Variable After Performing Operations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2011. Find Value of Variable After Performing Operations.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/202. Happy Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/202. Happy Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/203. Remove Linked Lists Element.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/203. Remove Linked Lists Element.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/204. Count Primes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/204. Count Primes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2043. Simple Bank System.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2043. Simple Bank System.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2048. Next Greater Numerically Balanced Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2048. Next Greater Numerically Balanced Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/205. Isomorphic Strings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/205. Isomorphic Strings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/206. Reverse Linked List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/206. Reverse Linked List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2095. Delete the Middle Node of a Linked List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2095. Delete the Middle Node of a Linked List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/21. Merge Two Sorted Lists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/21. Merge Two Sorted Lists.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2125. Number of Laser Beams in a Bank.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2125. Number of Laser Beams in a Bank.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/215. Kth Largest Element in an Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/215. Kth Largest Element in an Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/217. Contains Duplicate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/217. Contains Duplicate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2177. Find Three Consecutive Integers That Sum to a Given Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2177. Find Three Consecutive Integers That Sum to a Given Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/219. Contains Duplicate II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/219. Contains Duplicate II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2197. Replace Non-Coprime Numbers in Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2197. Replace Non-Coprime Numbers in Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/22. Generate Parentheses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/22. Generate Parentheses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2206. Divide Array Into Equal Pairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2206. Divide Array Into Equal Pairs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2215. Find the Difference of Two Arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2215. Find the Difference of Two Arrays.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2221. Find Triangular Sum of an Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2221. Find Triangular Sum of an Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2239. Find Closest Number to Zero.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2239. Find Closest Number to Zero.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/225. Implement Stack using Queues.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/225. Implement Stack using Queues.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2257. Count Unguarded Cells in the Grid.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2257. Count Unguarded Cells in the Grid.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/226. Invert Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/226. Invert Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2273. Find Resultant Array After Removing Anagrams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2273. Find Resultant Array After Removing Anagrams.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2284. Sender With Largest Word Count.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2284. Sender With Largest Word Count.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/229. Majority Element II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/229. Majority Element II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/23. Merge k Sorted Lists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/23. Merge k Sorted Lists.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/230. Kth Smallest Element in a BST.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/230. Kth Smallest Element in a BST.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2302. Count Subarrays With Score Less Than K.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2302. Count Subarrays With Score Less Than K.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2336. Smallest Number in Infinite Set.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2336. Smallest Number in Infinite Set.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/234. Palindrome Linked List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/234. Palindrome Linked List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/237. Delete Node in a Linked List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/237. Delete Node in a Linked List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/238. Product of Array Except Self.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/238. Product of Array Except Self.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2390. Removing Stars From a String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2390. Removing Stars From a String.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2396. Strictly Palindromic Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2396. Strictly Palindromic Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/242. Valid Anagram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/242. Valid Anagram.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2427. Number of Common Factors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2427. Number of Common Factors.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2525. Categorize Box According to Criteria.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2525. Categorize Box According to Criteria.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/257. Binary Tree Paths.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/257. Binary Tree Paths.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/263. Ugly Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/263. Ugly Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/268. Missing Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/268. Missing Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/27. Remove Element.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/27. Remove Element.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/278. First Bad Version.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/278. First Bad Version.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2785. Sort Vowels in a String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2785. Sort Vowels in a String.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2799. Count Complete Subarrays in an Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2799. Count Complete Subarrays in an Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/28. Find the Index of the First Occurrence in a String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/28. Find the Index of the First Occurrence in a String.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2806. Account Balance After Rounded Purchase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2806. Account Balance After Rounded Purchase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/283. Move Zeroes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/283. Move Zeroes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/286. Walls and Gates.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/286. Walls and Gates.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/287. Find the Duplicate Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/287. Find the Duplicate Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2894. Divisible and Non-divisible Sums Difference.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2894. Divisible and Non-divisible Sums Difference.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2942. Find Words Containing Character.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2942. Find Words Containing Character.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/295. Find Median from Data Stream.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/295. Find Median from Data Stream.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2962. Count Subarrays Where Max Element Appears At Least K Times.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/2962. Count Subarrays Where Max Element Appears At Least K Times.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3. Longest Substring Without Repeating Characters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3. Longest Substring Without Repeating Characters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3005. Count Elements With Maximum Frequency.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3005. Count Elements With Maximum Frequency.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3024. Type of Triangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3024. Type of Triangle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3043. Find the Length of the Longest Common Prefix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3043. Find the Length of the Longest Common Prefix.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/32. Longest Valid Parentheses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/32. Longest Valid Parentheses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3217. Delete Nodes From Linked List Present in Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3217. Delete Nodes From Linked List Present in Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3227. Vowels Game in a String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3227. Vowels Game in a String.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3289. The Two Sneaky Numbers of Digitville.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3289. The Two Sneaky Numbers of Digitville.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/334. Increasing Triplet Subsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/334. Increasing Triplet Subsequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3354. Make Array Elements Equal to Zero.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3354. Make Array Elements Equal to Zero.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3370. Smallest Number With All Set Bits.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3370. Smallest Number With All Set Bits.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3392. Count Subarrays of Length Three With a Condition.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3392. Count Subarrays of Length Three With a Condition.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3423. Maximum Difference Between Adjacent Elements in a Circular Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3423. Maximum Difference Between Adjacent Elements in a Circular Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/344. Reverse String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/344. Reverse String.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3442. Maximum Difference Between Even and Odd Frequency I.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3442. Maximum Difference Between Even and Odd Frequency I.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/345. Reverse Vowels of a String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/345. Reverse Vowels of a String.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3461. Check If Digits Are Equal in String After Operations I.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3461. Check If Digits Are Equal in String After Operations I.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/347. Top K Frequent Elements.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/347. Top K Frequent Elements.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3484. Design Spreadsheet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3484. Design Spreadsheet.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/35. Search Insert Position.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/35. Search Insert Position.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3516. Find Closest Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3516. Find Closest Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3541. Find Most Frequent Vowel and Consonant.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3541. Find Most Frequent Vowel and Consonant.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/367. Valid Perfect Square.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/367. Valid Perfect Square.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3692. Majority Frequency Characters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3692. Majority Frequency Characters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3731. Find Missing Elements.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3731. Find Missing Elements.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3732. Maximum Product of Three Elements After One Replacement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/3732. Maximum Product of Three Elements After One Replacement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/374. Guess Number Higher or Lower.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/374. Guess Number Higher or Lower.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/383. Ransom Note.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/383. Ransom Note.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/39. Combination Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/39. Combination Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/392. Is Subsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/392. Is Subsequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/4. Median of Two Sorted Arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/4. Median of Two Sorted Arrays.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/412. Fizz Buzz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/412. Fizz Buzz.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/429. N-ary Tree Level Order Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/429. N-ary Tree Level Order Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/443. String Compression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/443. String Compression.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/450. Delete Node in a BST.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/450. Delete Node in a BST.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/451. Sort Characters by Frequency.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/451. Sort Characters by Frequency.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/454. 4Sum II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/454. 4Sum II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/46. Permutations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/46. Permutations.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/463. Island Perimeter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/463. Island Perimeter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/485. Max Consecutive Ones.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/485. Max Consecutive Ones.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/49. Group Anagrams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/49. Group Anagrams.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/50. Pow(x,n).kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/50. Pow(x,n).kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/509. Fibonacci Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/509. Fibonacci Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/53. Maximum Subarray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/53. Maximum Subarray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/54. Spiral Matrix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/54. Spiral Matrix.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/542. 01 Matrix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/542. 01 Matrix.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/543. Diameter of Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/543. Diameter of Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/58. Length of Last Word.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/58. Length of Last Word.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/589. N-ary Tree Preorder Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/589. N-ary Tree Preorder Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/59. Spiral Matrix II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/59. Spiral Matrix II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/590. N-ary Tree Postorder Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/590. N-ary Tree Postorder Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/6. Zigzag Conversion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/6. Zigzag Conversion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/611. Valid Triangle Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/611. Valid Triangle Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/62. Unique Paths.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/62. Unique Paths.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/637. Average of Levels in Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/637. Average of Levels in Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/643. Maximum Average Subarray I.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/643. Maximum Average Subarray I.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/645. Set Mismatch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/645. Set Mismatch.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/653. Two Sum IV - Input is a BST.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/653. Two Sum IV - Input is a BST.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/66. Plus One.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/66. Plus One.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/680. Valid Palindrome II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/680. Valid Palindrome II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/682. Baseball Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/682. Baseball Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/69. Sqrt(x).kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/69. Sqrt(x).kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/692. Top K Frequent Words.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/692. Top K Frequent Words.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/695. Max Area of Island.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/695. Max Area of Island.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/70. Climbing Stairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/70. Climbing Stairs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/700. Search in a Binary Search Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/700. Search in a Binary Search Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/701. Insert Into a Binary Search Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/701. Insert Into a Binary Search Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/703. Kth Largest Element in a Stream.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/703. Kth Largest Element in a Stream.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/705. Design HashSet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/705. Design HashSet.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/706. Design Hashmap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/706. Design Hashmap.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/709. To Lower Case.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/709. To Lower Case.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/71. Simplify Path.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/71. Simplify Path.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/713. Subarray Product Less Than K.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/713. Subarray Product Less Than K.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/733. Flood Fill.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/733. Flood Fill.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/739. Daily Temperatures.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/739. Daily Temperatures.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/75. Sort Colors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/75. Sort Colors.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/767. Reorganize String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/767. Reorganize String.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/77. Combinations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/77. Combinations.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/771. Jewels and Stones.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/771. Jewels and Stones.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/78. Subsets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/78. Subsets.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/80. Remove Duplicates from Sorted Array II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/80. Remove Duplicates from Sorted Array II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/812. Largest Triangle Area.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/812. Largest Triangle Area.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/83. Remove Duplicates from Sorted List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/83. Remove Duplicates from Sorted List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/860. Lemonade Change.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/860. Lemonade Change.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/876. Middle of the Linked List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/876. Middle of the Linked List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/90. Subsets II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/90. Subsets II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/912. Sort an Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/912. Sort an Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/933. Number of Recent Calls.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/933. Number of Recent Calls.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/94. Binary Tree Inorder Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/94. Binary Tree Inorder Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/966. Vowel Spellchecker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/966. Vowel Spellchecker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/973. K Closest Points to Origin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/973. K Closest Points to Origin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/976. Largest Perimeter Triangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/976. Largest Perimeter Triangle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/977. Squares of Sorted Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/977. Squares of Sorted Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/98. Validate Binary Search Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/98. Validate Binary Search Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/994. Rotting Oranges.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/994. Rotting Oranges.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DataStructure/ListNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/DataStructure/ListNode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DataStructure/Node.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/DataStructure/Node.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DataStructure/TreeNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/DataStructure/TreeNode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/util/Geometry.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/util/Geometry.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/util/GraphUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/util/GraphUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/util/ListUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/util/ListUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/util/TreeUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/util/TreeUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/util/Util.kt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Kotlin/problems/util/Util.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +284,29 @@
         <option value="Kotlin Script" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitLabMergeRequestFiltersHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPENED&quot;,
+    &quot;assignee&quot;: {
+      &quot;type&quot;: &quot;org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue&quot;,
+      &quot;username&quot;: &quot;embarrington3&quot;,
+      &quot;fullname&quot;: &quot;Ernest Barrington&quot;
+    }
+  }
+}</component>
+  <component name="GitLabMergeRequestsSettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;first&quot;: &quot;https://gitlab.com/embarrington3/kotlin-leetcode.git&quot;,
+    &quot;second&quot;: &quot;3cd4459c-f88d-4215-bf4d-c5d0cacd990b&quot;
+  }
+}</component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="ks606pf0" />
   </component>
@@ -209,13 +448,15 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.textmate.bundles&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ernest\projects\KTLeetCode\LeetCode\CPP\problems" />
+      <recent name="C:\Users\Ernest\projects\KTLeetCode\LeetCode\Kotlin" />
       <recent name="C:\Users\Ernest\projects\KTLeetCode\src\main\kotlin" />
       <recent name="C:\Users\Ernest\projects\KTLeetCode\src\main\kotlin\Done" />
       <recent name="C:\Users\Ernest\projects\KTLeetCode\src\main\kotlin\InProgress" />
@@ -230,75 +471,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="KTLeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="KTLeetCode" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="KTLeetCode" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="KTLeetCode" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="KTLeetCode" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
-    </configuration>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -372,6 +544,11 @@
       <workItem from="1761489661596" duration="58433000" />
       <workItem from="1762019045726" duration="313000" />
       <workItem from="1762020422243" duration="1099000" />
+      <workItem from="1762126549447" duration="1303000" />
+      <workItem from="1762130377756" duration="134000" />
+      <workItem from="1762130514456" duration="38000" />
+      <workItem from="1762130567736" duration="14063000" />
+      <workItem from="1762301664987" duration="5228000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -453,7 +630,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761690804657</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added problems from 11-01-25 to 11-02-25">
+      <option name="closed" value="true" />
+      <created>1762126623668</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1762126623668</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,6 +673,7 @@
     <MESSAGE value="Added problems from 10-14-25 to 10-21-25" />
     <MESSAGE value="Added problems from 10-21-25 to 10-28-25" />
     <MESSAGE value="Added remaining problems from October." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added remaining problems from October." />
+    <MESSAGE value="Added problems from 11-01-25 to 11-02-25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added problems from 11-01-25 to 11-02-25" />
   </component>
 </project>

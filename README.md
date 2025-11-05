@@ -1,3 +1,3 @@
-# LeetCode Solutions
+# Competitive Programming Problems 
 
-Every LeetCode question I have solved with Kotlin & C++.
+:)
