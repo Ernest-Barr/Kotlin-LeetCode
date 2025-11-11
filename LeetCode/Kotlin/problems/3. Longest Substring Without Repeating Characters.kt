@@ -15,7 +15,3 @@ private fun lengthOfLongestSubstring(s: String): Int {
 
     return res
 }
-
-fun main() {
-    print("He")
-}
