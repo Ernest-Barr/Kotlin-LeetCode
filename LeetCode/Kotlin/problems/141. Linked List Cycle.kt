@@ -26,4 +26,3 @@ fun main() {
     println(hasCycle(list))
     println(hasCycle(cycle))
 }
-
